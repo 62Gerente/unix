@@ -1,0 +1,19 @@
+[user]
+	name = André Santos
+	email = andreccdr@gmail.com
+[github]
+	user = 62Gerente
+[core]
+	excludesfile = ~/unix/git/.gitignore_global
+[push]
+	default = current
+[alias]
+	p  = push
+	pl = pull
+	a  = add
+	c  = commit
+	co = checkout
+	b  = branch
+
+[color]
+	ui = true
