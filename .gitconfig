@@ -4,7 +4,7 @@
 [github]
 	user = 62Gerente
 [core]
-	excludesfile = ~/unix/git/.gitignore_global
+	excludesfile = /Users/gerente/unix/git/.gitignore_global
 [push]
 	default = current
 [alias]
