@@ -1,0 +1,11 @@
+#!/bin/bash
+
+alias c='clear'
+
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+
+alias la='ls -a'
+alias ll='ls -lh'
+alias lla='ls -lah'

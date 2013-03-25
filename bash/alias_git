@@ -1,0 +1,11 @@
+#!/bin/bash
+
+alias gp='git push'
+alias gcm='git commit -m'
+alias gc='git commit'
+alias gcam='git commit -am'
+alias gpll='git pull'
+alias gaa='git add .'
+alias ga='git add'
+alias grm='git rm'
+alias gs='git status'
