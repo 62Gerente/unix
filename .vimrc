@@ -16,6 +16,7 @@ set t_Co=256
 :set ignorecase   "Ignore case when searching
 
 :set mouse=a
+:set clipboard=unnamed
 
 :set title        "Show info in the window title
 :set titlestring=PANKAJ:\ %F   
