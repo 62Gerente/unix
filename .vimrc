@@ -15,8 +15,15 @@ set t_Co=256
 :set number       "Show line numbers
 :set ignorecase   "Ignore case when searching
 
-:set mouse=a
-:set clipboard=unnamed
+":set pastetoggle=<F3>   "Auto ident off when in paste-mode
+
+nmap <F3> :set paste<CR>:r !pbpaste<CR>:set nopaste<CR>
+imap <F3> <Esc>:set paste<CR>:r !pbpaste<CR>:set nopaste<CR>
+nmap <F4> :.w !pbcopy<CR><CR>
+vmap <F4> :w !pbcopy<CR><CR>
+
+:set mouse=a  			"Mouse activated
+:set clipboard=unnamed	"Copy and Paste from clipboard
 
 :set title        "Show info in the window title
 :set titlestring=PANKAJ:\ %F   
@@ -45,7 +52,7 @@ set t_Co=256
 	    
 
 	" Converting tabs to spaces
-    :au FileType cpp,c,java,sh,pl,php,asp,fl  set expandtab   "Converting tabs to spaces
+    :au FileType cpp,c,java,sh,pl,php,asp,fl,html  set expandtab   "Converting tabs to spaces
 
 call pathogen#infect()
 
@@ -64,3 +71,4 @@ let NERDTreeShowHidden=1
 "" FILETYPE
 
 au BufNewFile,BufRead *.fl set ft=cpp
+au BufNewFile,BufRead *.cshtml set ft=html

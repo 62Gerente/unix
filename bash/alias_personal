@@ -1,18 +1,1 @@
 #!/bin/bash
-
-alias aulas='cd ~/Aulas/'
-alias pl='cd ~/Aulas/PL/'
-alias meio='cd ~/Aulas/MEIO/'
-alias li4='cd ~/Aulas/LI4/'
-alias cg='cd ~/Aulas/CG/'
-alias srcr='cd ~/Aulas/SRCR/'
-alias cc='cd ~/Aulas/CC/'
-
-alias downl='cd ~/Downloads/'
-alias drop='cd ~/Dropbox/'
-alias docs='cd /Users/gerente/Documents'
-alias pics='cd /Users/gerente/Pictures'
-alias proj='cd /Users/gerente/Projectos'
-alias arqueodb='cd /Users/gerente/Documents/Visual\ Studio\ 2012/Projects/ArqueoDB'
-alias apps='cd /Applications'
-alias desk='cd /Users/gerente/Desktop'

@@ -1,0 +1,13 @@
+*.pyc
+*.sublime-*
+.cover
+.coverage
+.pythoscope
+COMMIT
+cover/
+helpers/build/
+htmlcov/
+misc
+nohup.out
+perltidyrc
+test*.pl

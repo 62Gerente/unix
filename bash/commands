@@ -34,9 +34,9 @@ cl()
 }
 
 extract () 
-{ # extract files. Ignore files with improper extensions.
+{ 
     local x
-    ee() { # echo and execute
+    ee() { 
             echo "$@"
             $1 "$2"
         }
@@ -59,7 +59,7 @@ extract ()
 function mark() {
   if [ $# -eq 1 ]; then
       echo "alias $1='cd `pwd`'" >> ~/unix/bash/alias_personal;
-      source "/Users/gerente/.bashrc";
+      source "$HOME/.bashrc";
   fi
 }
 

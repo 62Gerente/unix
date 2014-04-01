@@ -1,0 +1,6 @@
+# vim
+*.swp
+
+# sublime text 2
+*.cache
+*.pyc

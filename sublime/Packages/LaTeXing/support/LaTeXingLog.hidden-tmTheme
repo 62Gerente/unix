@@ -1,0 +1,57 @@
+  <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>name</key>
+  <string>TestConsoleTheme</string>
+  <key>settings</key>
+  <array>
+    <dict>
+      <key>settings</key>
+      <dict>
+        <key>selection</key>
+        <string>#9ebccc</string>
+        <key>selectionBorder</key>
+        <string>#a9bbc</string>
+        <key>inactiveSelection</key>
+        <string>#a8afb3</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Error</string>
+      <key>scope</key>
+      <string>log.error</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#B22222</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Warning</string>
+      <key>scope</key>
+      <string>log.warning</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#FF8C00</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Badbox</string>
+      <key>scope</key>
+      <string>log.badbox</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#B8860B</string>
+      </dict>
+    </dict>
+  </array>
+  <key>uuid</key>
+  <string>a9b02ef4-67ce-4402-b762-1cd01351d9b0</string>
+</dict>
+</plist>

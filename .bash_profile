@@ -25,3 +25,7 @@ PATH=$PATH:/usr/local/rvm/bin # Add RVM to PATH for scripting
 #-------------------- HOME BIN --------------------
 
 PATH=$PATH:~/bin
+alias pg='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log'
+
+
+export PGHOST=localhost

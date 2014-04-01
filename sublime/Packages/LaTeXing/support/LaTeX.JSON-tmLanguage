@@ -1,0 +1,51 @@
+{ 
+  "name": "LaTeX Extended",
+  "scopeName": "text.tex.latex.ing",
+  "fileTypes": [
+  	"tex", "ltx"
+  ],
+  "patterns": [
+    { 
+      "match": "%\\s*-\\*-\\s*(?:root|pdf)\\s*:\\s*(.+)-\\*-",
+      "name": "comment.line.percentage.latexing"
+    },
+    { 
+      "name": "meta.include.latex",
+      "begin": "((\\\\)(?:subfile))(\\{)",
+      "beginCaptures": {
+          "1": { "name": "keyword.control.include.latex" },
+          "2": { "name": "punctuation.definition.function.latex" },
+          "3": { "name": "punctuation.definition.arguments.begin.latex" }
+      },
+      "end": "\\}",
+      "endCaptures": {
+          "0": { "name": "punctuation.definition.arguments.end.latex" }
+      },
+      "contentName": "support.class.latex",
+      "patterns": [
+        { "include": "$self" } 
+      ]
+    },
+    { 
+      "name": "meta.function.bibliography.latex",
+      "begin": "((\\\\)(?:bibliography))(\\{)",
+      "beginCaptures": {
+          "1": { "name": "keyword.control.bibliography.latex" },
+          "2": { "name": "punctuation.definition.function.latex" },
+          "3": { "name": "punctuation.definition.arguments.begin.latex" }
+      },
+      "end": "\\}",
+      "endCaptures": {
+          "0": { "name": "punctuation.definition.arguments.end.latex" }
+      },
+      "contentName": "support.class.latex",
+      "patterns": [
+        { "include": "$self" } 
+      ]
+    },
+    { 
+      "include": "text.tex.latex"
+    }
+  ],
+  "uuid": "2227a33d-299e-4aff-b493-4f9d2375f5ad"
+}

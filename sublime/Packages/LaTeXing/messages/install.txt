@@ -1,0 +1,18 @@
+LaTeXing Plugin
+
+Thank you for installing the LaTeXing plugin for ST2!
+
+!!!! Please check LaTeXing3 for ST3, all the new feature are just going to be included in that version. !!!!
+
+To learn more about the features of this plugin, check the project website:
+
+http://www.latexing.com
+
+The documentation of LaTeXing is accessable via:
+
+http://docs.latexing.com (stable version)
+http://docs.latexing.com/en/development (testing version)
+
+
+Enjoy the work with LaTeXing!
+Chris
